@@ -31,7 +31,7 @@ The uploaded APK contained an individual Learn profile reference and a Microsoft
 <img width="738" height="1600" alt="image" src="https://github.com/user-attachments/assets/e0186cec-546b-412f-a82a-c59a8e16f65f" />
 
 
-The included artwork is promotional artwork, not a screenshot of a running app. Capture screenshots from your final build before using them in a store listing.
+The included artwork is a screenshot of a running app.
 
 ## Requirements
 
