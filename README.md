@@ -20,12 +20,6 @@ An independent Android companion app for signing in with Microsoft and opening o
 
 Microsoft Graph's basic `User.Read` permission does **not** provide a user's Microsoft Learn certifications. This project links to the official Learn pages inside an in-app WebView; it does not claim to retrieve certification records as native credential objects and does not fabricate credential data. Learn sign-in and page availability are controlled by Microsoft and may vary by account or page.
 
-## APK audit and redesign notes
-
-The supplied `MS Profile v1.apk` was inspected statically as an Android package. See [`APK_AUDIT.md`](APK_AUDIT.md) for findings and limitations. The APK includes compiled DEX files and MSAL-related resources, but it does not contain the original readable Kotlin source/Gradle project. This repository is a clean source implementation inspired by the observed behavior, **not a decompilation or byte-for-byte reconstruction**.
-
-The uploaded APK contained an individual Learn profile reference and a Microsoft identity configuration for the old package. Those values were not copied into this generic project. The app's MSAL values are placeholders and must be configured by each publisher using an Entra app registration they control.
-
 ## Screenshots and artwork
 
 <img width="738" height="1600" alt="image" src="https://github.com/user-attachments/assets/e0186cec-546b-412f-a82a-c59a8e16f65f" />
