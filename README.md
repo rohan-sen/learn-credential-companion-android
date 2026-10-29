@@ -1,4 +1,4 @@
-# Learn Credential Companion (Android)
+# Microsoft Learn Credential Companion (Android)
 
 An independent Android companion app for signing in with Microsoft and opening official Microsoft Learn profile, credentials, Applied Skills, and transcript pages.
 
