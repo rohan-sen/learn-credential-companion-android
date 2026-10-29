@@ -1,0 +1,27 @@
+# Android / Gradle
+.gradle/
+**/build/
+local.properties
+.externalNativeBuild/
+.cxx/
+*.iml
+.idea/
+
+# Signing material and local secrets
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+.env
+.env.*
+secrets.properties
+
+# Build artifacts — do not commit by default
+*.apk
+*.aab
+*.ap_
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
