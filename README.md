@@ -141,7 +141,7 @@ Before `git add .`, inspect `git status` and confirm that no local properties, s
 
 ## License
 
-The repository includes an MIT license template. Review the copyright-holder line and confirm you have the rights to license all source and artwork before publishing. Third-party dependencies remain under their own licenses; see [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
+Third-party dependencies remain under their own licenses; see [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
 
 ## Contributing
 
